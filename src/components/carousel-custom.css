@@ -1,0 +1,39 @@
+.carousel .control-arrow {
+    background-color: #F6F6F6 !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    opacity: 0.8 !important;
+    transition: opacity 0.2s ease-in-out !important;
+  }
+  
+  .carousel .control-arrow:hover {
+    opacity: 1 !important;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black !important;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid black !important;
+  }
+  
+  .carousel .control-prev.control-arrow,
+  .carousel .control-next.control-arrow {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+  
+  .carousel .control-prev.control-arrow {
+    left: -30px !important;
+  }
+  
+  .carousel .control-next.control-arrow {
+    right: -30px !important;
+  }
+  
